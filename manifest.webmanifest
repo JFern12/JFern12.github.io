@@ -1,7 +1,7 @@
 {
     "name": "A Super Cool PWA",
     "short_name": "PWA",
-    "start_url": "/",
+    "start_url": "/index.html",
     "icons": [{"src": "resources/warning.jpg", "sizes": "5000x5000", "type":"image/jpg"}],
     "display": "standalone"
 }
