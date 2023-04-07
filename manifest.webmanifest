@@ -1,0 +1,6 @@
+{
+    "name": "A Super Cool PWA",
+    "start_url": "/",
+    "icons": [{"src": "resources/warning.jpg", "sizes": "5000x5000", "typ":"image/jpg"}],
+    "display": "standalone"
+}
