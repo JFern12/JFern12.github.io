@@ -3,7 +3,7 @@
     <head>
         <!--https://jfern12.github.io/-->
         <meta charset="utf-8">
-        <title> TEST PAGE</title>
+        
         <!--link rel="stylesheet" href="css/style.css"/-->
         <link rel="manifest" href="manifest.webmanifest" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,14 +19,16 @@
         <meta name="msapplication-TileImage" content="resources/warning_144.jpg">
         <meta name="msapplication-TileColor" content="#0000FF">
 
-
+        <title> TEST PAGE</title>
     </head>
     <body>
-        <h1 class="title">Hello World!</h1>
-        <p>
-            TEST TEST TEST. THIS IS ONLY A TEST.
-        </p>
-        <script src="scripts/main.js"></script>
+        <h1 class="title">TEST TEST TEST. THIS IS ONLY A TEST!</h1>
+        <script>
+        if ('serviceWorker' in navigator)
+        {
+            navigator.serviceWorker.register('./sw.js');
+        }
+        </script>
     </body>
 </html>
 

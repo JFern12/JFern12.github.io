@@ -5,12 +5,12 @@
     "icons": 
     [
         {"src": "resources/warning_16.jpg", "sizes": "16x16", "type":"image/jpg"},
-        {"src": "resources/warning_128.jpg", "sizes": "128x128", "type":"image/jpg"},
-        {"src": "resources/warning_144.jpg", "sizes": "144x144", "type":"image/jpg"},
-        {"src": "resources/warning_152.jpg", "sizes": "152x152", "type":"image/jpg"},
-        {"src": "resources/warning_192.jpg", "sizes": "192x192", "type":"image/jpg"},
-        {"src": "resources/warning_256.jpg", "sizes": "256x256", "type":"image/jpg"},
-        {"src": "resources/warning_512.jpg", "sizes": "512x512", "type":"image/jpg"}
+        {"src": "resources/warning_128.png", "sizes": "128x128", "type":"image/png"},
+        {"src": "resources/warning_144.png", "sizes": "144x144", "type":"image/png"},
+        {"src": "resources/warning_152.png", "sizes": "152x152", "type":"image/png"},
+        {"src": "resources/warning_192.png", "sizes": "192x192", "type":"image/png"},
+        {"src": "resources/warning_256.png", "sizes": "256x256", "type":"image/png"},
+        {"src": "resources/warning_512.png", "sizes": "512x512", "type":"image/png"}
     ],
     "display": "standalone"
 }
